@@ -1,0 +1,17 @@
+<main class="index">
+    <header class="masthead d-flex">
+        <div class="container text-center my-auto">
+            <h1 class="mb-1"><i class="fas fa-address-book"></i>AgenDate</h1>
+            <h3 class="mb-5">
+                <em>Crea una agenda en linea y accede a ella desde cualquier dispositivo</em>
+            </h3>
+            {{#if user}}
+            {{else}}
+            <a class="btn btn-primary btn-lg" href="/signin">
+                Accede
+            </a>
+            {{/if}}
+        </div>
+        <div class="overlay"></div>
+    </header>
+</main>
